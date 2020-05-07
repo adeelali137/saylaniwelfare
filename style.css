@@ -1,0 +1,468 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #f7f8fa! important;
+}
+
+/*header*/
+
+#header{
+	background: royalblue;
+}
+
+#header .iconshead{
+	margin-left: 40px;
+}
+
+#header .iconshead i{
+	margin-right: 0px;
+	color: #fff;
+	padding: 11px 5px;
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+
+#header .iconshead .fa-whatsapp{
+	color: rgb(0, 255, 0);
+}
+
+#header .iconshead i:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#header .texthead h6{
+	font-size: 15px;
+	padding-top: 15px;
+	font-weight: 400;
+}
+
+#header .texthead{
+	color: #fff;
+}
+
+#header .btnhead button{
+	padding: 6px 6px;
+	font-size: 12px;
+}
+
+#header .btnhead{
+	padding: 10px 2px;
+	font-size: 13px;
+	margin-right: 40px;
+}
+
+#header .btnhead button:hover{
+	opacity: 0.9;
+}
+
+/*NVBAR*/
+.nav-item{
+	padding: 0 8px;
+}
+
+.nav-item .nav-link{
+	padding: 8px 10px;
+	color: #000;
+	font-weight: 600;
+}
+
+.nav-link:hover, .active{
+	background-color: royalblue;
+	border-radius: 20px;
+	color: #fff! important;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 250px;
+	z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  font-size: 0.9em;
+}
+
+.dropdown-content a:hover {
+  background-color: royalblue;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  transition: ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  list-style: none;
+}
+
+
+
+
+/*Showcase*/
+
+
+/*Marquee*/
+
+.marq{
+	background-color: royalblue;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #fff;
+	padding: 5px 1px;
+	font-size: 12px;
+}
+.marq span{
+	color: rgb(0, 255, 0);;
+}
+
+/*ABOUT*/
+
+#about{
+	padding-bottom: 50px;
+}
+
+#about .aboutcontent p{
+	color: #555;
+	font-size: 16px;
+}
+
+#about .headabout p{
+	font-size: 3em;
+	color: royalblue;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+#about .headabout p::after{
+	content: '';
+	height: 2px;
+	width: 160px;
+	display: block;
+	margin: 0 auto;
+	background: green;
+}
+
+
+#about .headabout span{
+	font-size: 1em;
+	color: green;
+}
+
+/*BOXEX NUMBER*/
+
+#numbers{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: rgba(36, 79, 242, 0.8)! important;
+}
+
+.iconnum .fa{
+	color: #f1f1f1;
+	font-size: 2.5em;
+	padding: 20px 0;
+}
+
+.contentnum h1{
+	font-size: 3.2em;
+	color: white;
+	font-family: serif;
+
+}
+
+.contentnum h6{
+	color: #f1f1f1;
+	font-size: 1em;
+	font-weight: 600;
+	padding-bottom: 50px;
+
+}
+
+.contentnum h6 span{
+	color: rgb(0,255,0);
+	font-weight: bold;
+}
+
+
+/*CARDS*/
+#card{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.headcard h1{
+	font-size: 3em;
+	margin-bottom: 70px;
+}
+
+.headcard h1::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 160px;
+	background: green;
+	margin: 10px auto;
+}
+
+
+.headcard h1 span{
+	font-size:1em;
+	color: rgb(0,130,0);
+}
+
+#card .card{
+	padding: 20px 50px;
+	margin-bottom: 40px;
+	box-shadow: 2px 4px 22px #ddd;
+}
+
+.card img{
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+.card h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+/*NEWS*/
+
+#news{
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background-color: #fff;
+}
+
+/*NEWS LEFT*/
+
+.cont{
+	margin-bottom: 10px;
+}
+.cont1{
+	position: relative;
+	left: 300px;
+	bottom: 140px;
+	margin-bottom: 10px; 
+}
+
+.boxhead .contentnews{
+	background: #d9d9d9;
+	height: 60px;
+	width: 280px;
+	padding: 10px 20px;
+}
+
+.contentnews h5{
+	text-align: center;
+	bottom: 25px;
+	position: relative;
+}
+
+
+
+
+/*NEWS RIGHT*/
+.eventmarq h4, .boxhead h4{
+	color: royalblue;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.eventmarq h4::after{
+	content: '';
+	display: block;
+	background: green;
+	margin: 8px 0;
+	height: 2px;
+	width: 70px;
+}
+
+.boxhead h4::after{
+	content: '';
+	display: block;
+	background: green;
+	margin: 8px 0;
+	height: 2px;
+	width: 70px;
+}
+
+.eventmarq span{
+	color: royalblue;
+}
+
+/*GALLERY*/
+
+
+#gallery{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fff;
+}
+
+#gallery h1{
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+
+#gallery span{
+	font-size: 1em;
+	color: rgb(0,155,0);
+}
+
+#gallery h1::after{
+	content: '';
+	display: block;
+	background: green;
+	margin: 6px auto;
+	height: 2px;
+	width: 170px;
+}
+
+#gallery img:hover{
+	opacity: 0.5;
+}
+
+
+/*FOOTER*/
+#footer{
+	background-color: rgb(37, 39, 46);
+	font-size: 14px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: #ddd;
+}	
+
+.fff{
+	background-color: royalblue;
+}
+
+.fff p{
+	padding: 10px 100px;
+}
+
+.cntcticon .fa{
+	padding: 10px 0;
+	color: green;
+	margin-right: 12px;
+}
+
+.clnf h2{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.clnf h2::after{
+	content: '';
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: green;
+	margin: 10px 2px;
+}
+
+.sicons h2{
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.sicons .fa:hover{
+	cursor: pointer;
+}
+
+.sicons .fa{
+	background-color: royalblue;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	padding: 7px 10px;
+
+}
+
+
+
+/*BUTTON*/
+
+.arrow:hover{
+	opacity: 1;
+}
+
+.arrow{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	background: grey;
+	opacity: 0.4;
+	border-radius: 10px;
+}
+
+.arrow .fa{
+	color: #fff;
+	font-size: 2em;
+}
+
+
+
+@media screen and (max-width: 400px){
+	#header .row{
+		margin: 0 auto;
+		align-items: center;
+		text-align: center;
+	}
+	#header .row .btnhead{
+		margin-left: 60px;
+	}
+	
+	.navbar-toggler{
+		border:none! important;
+	}
+
+	.nav-item .nav-link{
+		padding: 10px 30px! important;
+	}
+
+	.marq{
+	background-color: royalblue;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #fff;
+	padding: 1px 1px;
+	font-size: 10px;
+	}
+
+	#about .headabout p{
+	font-size: 2em;
+	color: royalblue;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+	}
+
+	.headcard h1{
+	font-size: 2em;
+	margin-bottom: 50px;
+	}
+
+}	
